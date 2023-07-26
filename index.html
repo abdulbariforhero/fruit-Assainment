@@ -10,26 +10,35 @@
     <!-- CND daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- vanilla css -->
+    <style>
+        .bg-custom-banner-gradient {
+            background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+        }
+    </style>
 </head>
+
 
 <body>
     <header>
         <!-- banner section -->
         <section class="container mx-auto max-h[600px]">
-            <div class="carousel w-full">
+            <div class="carousel w-full lg:h-[550px]">
 
                 <!-- slider 1 -->
-                <div id="slide1" class="carousel-item relative w-full hero min-h-screen"
-                    style="background-image: url(./images/banner1.png); bg-cover">
+                <div id="slide1" class="carousel-item relative w-full hero  "
+                    style="background-image: linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(18, 18, 18, 0.00)), url(./images/banner1.png); bg-cover">
                     <div>
-                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-overlay bg-opacity-60 .bg-custom-banner-gradient"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="text-white">
                                 <h1 class="mb-5 text-5xl lg:text-6xl font-bold">Exotic tastes at your <br> doorstep</h1>
                                 <p class="mb-5">We supply highly quality organic products.</p>
                                 <button
-                                    class="btn bg-red-600 border-none text-white hover:text-red-600 hover:bg-white">Get
-                                    Started</button>
+                                    class="btn bg-red-600 border-none text-white hover:text-red-600 hover:bg-white">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -39,18 +48,18 @@
                     </div>
 
                 </div>
-                <!-- slider 1 -->
-                <div id="slide2" class="carousel-item relative w-full hero min-h-screen"
-                    style="background-image: url(./images/banner1.png); bg-cover">
+                <!-- slider 2 -->
+                <div id="slide2" class="carousel-item relative w-full hero .bg-custom-banner-gradient"
+                    style="background-image: linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(18, 18, 18, 0.00)), url(./images/banner2.png); bg-cover">
                     <div>
-                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-overlay bg-opacity-60 "></div>
                         <div class="hero-content text-center text-neutral-content">
-                            <div class="max-w-md">
-                                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                                    excepturi
-                                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button class="btn btn-primary">Get Started</button>
+                            <div class="text-white">
+                                <h1 class="mb-5 text-5xl lg:text-6xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products.</p>
+                                <button
+                                    class="btn bg-red-600 border-none text-white hover:text-red-600 hover:bg-white">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -60,18 +69,18 @@
                     </div>
 
                 </div>
-                <!-- slider 1 -->
-                <div id="slide3" class="carousel-item relative w-full hero min-h-screen"
-                    style="background-image: url(./images/banner1.png); bg-cover">
+                <!-- slider 3 -->
+                <div id="slide3" class="carousel-item relative w-full hero  "
+                    style="background-image: linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(18, 18, 18, 0.00)), url(./images/banner3.png); bg-cover">
                     <div>
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
-                            <div class="max-w-md">
-                                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                                    excepturi
-                                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button class="btn btn-primary">Get Started</button>
+                            <div class="text-white">
+                                <h1 class="mb-5 text-5xl lg:text-6xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products.</p>
+                                <button
+                                    class="btn bg-red-600 border-none text-white hover:text-red-600 hover:bg-white">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -81,18 +90,18 @@
                     </div>
 
                 </div>
-                <!-- slider 1 -->
-                <div id="slide4" class="carousel-item relative w-full hero min-h-screen"
-                    style="background-image: url(./images/banner1.png); bg-cover">
+                <!-- slider 4 -->
+                <div id="slide4" class="carousel-item relative w-full hero bg-opacity-10"
+                    style="background-image: linear-gradient(to bottom, rgba(18, 18, 18, 1), rgba(18, 18, 18, 0.00)), url(./images/banner4.png); bg-cover">
                     <div>
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
-                            <div class="max-w-md">
-                                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                                    excepturi
-                                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button class="btn btn-primary">Get Started</button>
+                            <div class="text-white">
+                                <h1 class="mb-5 text-5xl lg:text-6xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products.</p>
+                                <button
+                                    class="btn bg-red-600 border-none text-white hover:text-red-600 hover:bg-white">Shop
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -102,6 +111,9 @@
                     </div>
 
                 </div>
+
+
+
             </div>
         </section>
 
